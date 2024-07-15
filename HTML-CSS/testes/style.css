@@ -44,6 +44,7 @@ nav a {
     color: white;
     padding: 10px;
     font-weight: bolder;
+    
 
     text-decoration: none;
     text-shadow: 4px 1px 10px red;
@@ -53,6 +54,7 @@ nav a:hover {
     background-color: rgba(255, 0, 0, 0.253);
     padding: 10px;
     border-radius: 10px 0px;
+    transition: 0.5s;
 }
 
 main {
