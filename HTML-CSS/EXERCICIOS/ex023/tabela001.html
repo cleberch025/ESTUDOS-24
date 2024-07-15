@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title> 
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            padding-bottom: 50px;
+        }        
+
+        table {
+           width: 700px;
+           height: 200px;
+           border-collapse: collapse;
+           margin: auto;
+        }
+
+        tr {
+            background-color: rgba(102, 51, 153, 0.534);
+        }
+
+        tr.meio {
+            background-color: red;
+            color: black;
+        }
+
+        td {
+            border: 2px solid black;
+            padding: 8px;
+            text-align: center;
+            color: black;
+            font-weight: bolder;
+        }
+
+        td.marca {
+            background-color: black;
+            color: white;
+        }
+
+  
+
+    </style>
+</head>
+<body>
+    <h1>Minha primeira tabela</h1>
+
+    <table>
+        <tr>
+            <td class="marca">A1</td>
+            <td>B1</td>
+            <td>C1</td>
+        </tr>
+
+        <tr class="meio">
+            <td>A2</td>
+            <td>B2</td>
+            <td>C2</td>
+        </tr>
+
+        <tr>
+            <td>A3</td>
+            <td>B3</td>
+            <td class="marca">C3</td>
+        </tr>
+    </table>
+</body>
+</html>
